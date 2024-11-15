@@ -1,0 +1,48 @@
+/* story list / card */
+
+.card {
+  background: #1e1e1e; /* Warna latar belakang gelap */
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px #ff007f, 0px 0px 20px #ff007f; /* Efek neon hijau kebiruan */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom-in saat hover */
+  box-shadow: 0px 0px 15px #ff007f, 0px 0px 30px #ff007f; /* Menambah efek glow saat hover */
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ff007f; /* Warna neon untuk judul */
+  text-shadow: 0px 0px 5px #ff007f, 0px 0px 10px #ff007f; /* Efek glow pada teks */
+  margin: 0.5rem 0;
+}
+
+.card-text {
+  color: #ffffff;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  flex-grow: 1;
+}

@@ -1,0 +1,26 @@
+/* Neon effect for the category filter */
+.category-select {
+  background: transparent;
+  border: 2px solid #ff007f; /* Neon pink border */
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 30px #ff007f;
+  margin-bottom: 20px;
+}
+
+.category-select:focus {
+  outline: none;
+  border-color: #ff007f;
+  box-shadow: 0 0 15px #ff007f, 0 0 25px #ff007f, 0 0 35px #ff007f;
+}
+
+/* Adding space between search bar and category filter */
+.search-bar-container {
+  display: flex;
+  gap: 1rem; /* Adds space between the search bar and category filter */
+  justify-content: center;
+  margin-bottom: 1rem; /* Adds space below */
+}

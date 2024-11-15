@@ -1,0 +1,39 @@
+.footer {
+  background-color: #121212;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0 0 5px #ff007f, 0 0 10px #ff007f, 0 0 15px #ff007f;
+  margin: 0;
+}
+
+.footer a {
+  color: #ff007f;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Responsif untuk ukuran layar kecil */
+@media (max-width: 600px) {
+  .footer p {
+    font-size: 14px;
+  }
+}

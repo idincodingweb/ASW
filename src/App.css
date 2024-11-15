@@ -1,0 +1,30 @@
+/* src/styles/custom.css */
+* {
+font-family: 'Quicksand', sans-serif;
+}
+body {
+  background-color: #343a40; /* Warna latar belakang lembut */
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Tombol Buton */
+
+.btn-neon {
+  background-color: transparent;
+  border: 2px solid #ff007f;
+  color: #ffffff;
+  box-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f, 0 0 30px #ff007f;
+  transition: 0.3s;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-neon:hover {
+  box-shadow: 0 0 20px #ff007f, 0 0 30px #ff007f, 0 0 40px #ff007f;
+  color: #fff;
+}
