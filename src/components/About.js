@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../image/idincuy.jpg';
+import profileImage from '../image/FB_IMG_1733158331408.jpg';
 import '../css/About.css';
 
 function About() {
